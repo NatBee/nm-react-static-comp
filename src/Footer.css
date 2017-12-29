@@ -1,0 +1,14 @@
+.Footer {
+  border-top: 2px solid ghostwhite;
+  padding: 20px;
+  margin-top: 50px;
+  color: lightseagreen;
+}
+
+h3 {
+  font-size: .75em;
+}
+
+img { 
+  width: .75em; 
+}
