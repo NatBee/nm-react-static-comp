@@ -1,17 +1,20 @@
 .Header {
+  border-bottom: 2px solid ghostwhite;
+  padding: 20px;
+  margin: 0 auto;
+}
+.headerTitle {
+  align-content: flex-start;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid ghostwhite;
-  padding: 20px;
-  margin: auto;
 }
-
 a {
   text-align: center;
   text-decoration: none;
   color: lightseagreen;
   width: 20%;
+  font-size: .85em;
 }
 
 a:hover {
@@ -23,4 +26,60 @@ h1 {
   font-size: 40px;
   font-weight: bolder;
   margin: 0;
+}
+
+.headerTitle h3 {
+  font-size: 2.25em;
+  margin: 0 auto;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  color: lightseagreen;
+  width: 45%;
+  font-size: .85em;
+  border: 1px solid lightseagreen;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+button:hover {
+  color: turquoise;
+}
+
+.signInBtn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30%;
+}
+
+.signInBtn a {
+  padding: 0px 15px;
+}
+
+.signInBtn img {
+  width: 1em;
+}
+
+@media only screen and (max-width: 1100px) {
+  
+  .signInBtn {
+    justify-content: space-evenly;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+  a {
+    display: none;
+  }
+
+  .signInBtn {
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
 }

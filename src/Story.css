@@ -29,3 +29,10 @@
   line-height: 150%;
   margin: 0;
 }
+
+@media only screen and (max-width: 750px) {
+  .Story {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
