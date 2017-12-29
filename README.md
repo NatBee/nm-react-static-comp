@@ -45,6 +45,8 @@ The React static comp is designed to get you comfortable with basic React princi
 ![static comp design](https://i.imgur.com/8eQr70q.png)
 You can gather ideas for the responsive design based on [Medium's website](https://medium.com/).
 
+My react site: ![alt text](https://raw.githubusercontent.com/natbee/nm-react-static-comp/master/public/nm-react-static-comp.png)
+
 ### Static Comp Learning Goals
 - Begin to understand rendering in React
 - Begin to understand creating components in React
