@@ -6,7 +6,7 @@ const Footer = (props) => {
     <div className='Footer'>
       <div className='footerTitle'>
         
-        <h3><img src='./public/copyright.svg'/> 2017</h3>
+        <h3>2017</h3>
       </div>
     </div>    
     )
