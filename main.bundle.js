@@ -31442,43 +31442,73 @@ var _Banner = __webpack_require__(521);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _Stories = __webpack_require__(526);
+var _Stories = __webpack_require__(527);
 
 var _Stories2 = _interopRequireDefault(_Stories);
 
-var _Footer = __webpack_require__(535);
+var _Footer = __webpack_require__(536);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-__webpack_require__(538);
+__webpack_require__(539);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var stories = [{
-  img: './public/story1.jpg',
-  title: 'Winning at Fonts',
-  desc: 'or, Why you should care about typography',
+  img: './public/boss.jpg',
+  title: 'How to be a Boss',
+  desc: 'A guide for women on how to be a boss. Mansplained by Donald Trump.',
   authImg: './public/louisa.png',
   authName: 'Louisa',
   estTime: '2 min'
 }, {
-  img: './public/story2.jpg',
-  title: 'Hoodlums: a dissertation',
-  desc: 'Examining villains in modern storytelling',
+  img: './public/cat.jpg',
+  title: 'Make Better Decisions',
+  desc: 'Your cat sees everything and YES he\'s judging you!',
   authImg: './public/alternate.png',
   authName: 'Nathaniel',
   estTime: '10 min'
 }, {
-  img: './public/story3.jpg',
-  title: 'Halloween is a year-round sport',
-  desc: 'Those who say otherwise just aren\'t trying hard enough.',
+  img: './public/shoes.jpg',
+  title: 'Walk a Mile in My Shoes',
+  desc: 'One woman\'s quest to master badass activities while wearing whatever the F#*$ she wants.',
   authImg: './public/leta.png',
   authName: 'Leta',
   estTime: '8 min'
 }, {
-  img: './public/story4.jpg',
-  title: 'How to Improve Learning and Classroom Engagement with Humor',
-  desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
+  img: './public/eyes.jpg',
+  title: 'How to Land Your Dream Job',
+  desc: 'Build your personal brand to stand out and get your dream job.',
+  authImg: './public/pamela.png',
+  authName: 'Pamela',
+  estTime: '11 min'
+}];
+
+var stories2 = [{
+  img: './public/heart.jpg',
+  title: 'Heart',
+  desc: 'A memoir of love, fashion, and friendship.',
+  authImg: './public/louisa.png',
+  authName: 'Louisa',
+  estTime: '2 min'
+}, {
+  img: './public/drown.jpg',
+  title: 'Shine On',
+  desc: 'Keep your light buring bright.',
+  authImg: './public/alternate.png',
+  authName: 'Nathaniel',
+  estTime: '10 min'
+}, {
+  img: './public/unicorn.jpg',
+  title: 'Uniquely Yours',
+  desc: 'A lonely Rhino\'s journey of self acceptance.',
+  authImg: './public/leta.png',
+  authName: 'Leta',
+  estTime: '8 min'
+}, {
+  img: './public/watch.jpg',
+  title: 'Time Travel',
+  desc: 'The cautious persuit of time travel and the world of the future.',
   authImg: './public/pamela.png',
   authName: 'Pamela',
   estTime: '11 min'
@@ -31493,7 +31523,7 @@ var App = function App() {
     _react2.default.createElement(_Stories2.default, { storiesTitle: 'Today\'s Top Stories',
       stories: stories }),
     _react2.default.createElement(_Stories2.default, { storiesTitle: 'Pop Culture',
-      stories: stories }),
+      stories: stories2 }),
     _react2.default.createElement(_Footer2.default, null)
   );
 };
@@ -31539,7 +31569,6 @@ var Header = function Header(props) {
       _react2.default.createElement(
         'div',
         { className: 'signInBtn' },
-        _react2.default.createElement('img', { src: '../public/search.svg' }),
         _react2.default.createElement(
           'a',
           { href: '#' },
@@ -31592,7 +31621,7 @@ exports = module.exports = __webpack_require__(77)();
 
 
 // module
-exports.push([module.i, ".Header {\n  border-bottom: 2px solid ghostwhite;\n  padding: 20px;\n  margin: 0 auto;\n}\n.headerTitle {\n  align-content: flex-start;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\na {\n  text-align: center;\n  text-decoration: none;\n  color: lightseagreen;\n  width: 20%;\n  font-size: .85em;\n}\n\na:hover {\n  color: turquoise;\n}\n\nh1 {\n  font-family: serif;\n  font-size: 40px;\n  font-weight: bolder;\n  margin: 0;\n}\n\n.headerTitle h3 {\n  font-size: 2.25em;\n  margin: 0 auto;\n}\n\nbutton {\n  text-align: center;\n  text-decoration: none;\n  color: lightseagreen;\n  width: 45%;\n  font-size: .85em;\n  border: 1px solid lightseagreen;\n  border-radius: 4px;\n  padding: 10px;\n}\n\nbutton:hover {\n  color: turquoise;\n}\n\n.signInBtn {\n  display: flex;\n  justify-content: start;\n  align-items: center;\n  width: 30%;\n}\n\n.signInBtn a {\n  padding: 0px 15px;\n}\n\n.signInBtn img {\n  width: 1em;\n}\n\n@media only screen and (max-width: 1100px) {\n  \n  .signInBtn {\n    justify-content: space-evenly;\n  }\n\n}\n\n@media only screen and (max-width: 800px) {\n  \n  a {\n    display: none;\n  }\n\n  .signInBtn {\n    justify-content: space-evenly;\n    width: 50%;\n  }\n\n}\n", ""]);
+exports.push([module.i, ".Header {\n  border-bottom: 2px solid ghostwhite;\n  padding: 20px;\n  margin: 0 auto;\n}\n.headerTitle {\n  align-content: flex-start;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\na {\n  text-align: center;\n  text-decoration: none;\n  color: lightseagreen;\n  width: 20%;\n  font-size: 1em;\n}\n\na:hover {\n  color: turquoise;\n}\n\nh1 {\n  font-family: serif;\n  font-size: 40px;\n  font-weight: bolder;\n  margin: 0;\n}\n\n.headerTitle h3 {\n  font-size: 2.25em;\n  margin: 0 auto;\n}\n\nbutton {\n  text-align: center;\n  text-decoration: none;\n  color: lightseagreen;\n  width: 45%;\n  font-size: 1em;\n  border: 1px solid lightseagreen;\n  border-radius: 4px;\n  padding: 10px;\n}\n\nbutton:hover {\n  color: turquoise;\n}\n\n.signInBtn {\n  display: flex;\n  justify-content: start;\n  align-items: center;\n  width: 30%;\n}\n\n.signInBtn a {\n  padding: 0px 15px;\n}\n\n.signInBtn img {\n  width: 1em;\n}\n\n@media only screen and (max-width: 1100px) {\n  \n  .signInBtn {\n    justify-content: space-evenly;\n  }\n\n}\n\n@media only screen and (max-width: 800px) {\n  \n  a {\n    display: none;\n  }\n\n  .signInBtn {\n    justify-content: space-evenly;\n    width: 50%;\n  }\n\n}\n", ""]);
 
 // exports
 
@@ -31727,13 +31756,19 @@ exports = module.exports = __webpack_require__(77)();
 
 
 // module
-exports.push([module.i, ".Banner {\n  display: flex;\n  width: 70%;\n  margin: 0 auto 80px auto;\n}\n\n.Banner h2 {\n  font-family: serif;\n  font-size: 45px;\n  font-weight: lighter;\n  text-align: left;\n  letter-spacing: 2px;\n}\n\n.Banner p {\n  text-align: left;\n  font-size: 20px;\n  font-weight: lighter;\n  line-height: 150%;\n}\n\n.banner-left {\n  width: 50%;\n}\n\n.banner-right {\n  background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png);\n  background-size: cover;\n  width: 50%;\n}\n\n.button-holder {\n  display: flex;\n  justify-content: flex-start;\n}\n\n@media only screen and (max-width: 1150px) {\n  .Banner {\n    flex-wrap: wrap;\n    width: 70%;\n  }\n\n  .banner-left {\n    width: 100%;\n  }\n\n  .banner-right {\n    display: none;\n  }\n}\n\n@media only screen and (max-width: 950px) {\n  .Banner {\n    width: 90%;\n  }\n}\n\n@media only screen and (max-width: 750px) {\n  .banner-right {\n    display: none;\n  }\n}\n\n\n\n", ""]);
+exports.push([module.i, ".Banner {\n  display: flex;\n  width: 70%;\n  margin: 0 auto 80px auto;\n}\n\n.Banner h2 {\n  font-family: serif;\n  font-size: 45px;\n  font-weight: lighter;\n  text-align: left;\n  letter-spacing: 2px;\n}\n\n.Banner p {\n  text-align: left;\n  font-size: 20px;\n  font-weight: lighter;\n  line-height: 150%;\n}\n\n.banner-left {\n  width: 50%;\n  padding: 0 20px 0 0;\n}\n\n.banner-right {\n  background-image: url(" + __webpack_require__(526) + ");\n  background-size: cover;\n  width: 50%;\n}\n\n.button-holder {\n  display: flex;\n  justify-content: flex-start;\n}\n\n@media only screen and (max-width: 1150px) {\n  .Banner {\n    flex-wrap: wrap;\n    width: 70%;\n  }\n\n  .banner-left {\n    width: 100%;\n  }\n\n  .banner-right {\n    display: none;\n  }\n}\n\n@media only screen and (max-width: 950px) {\n  .Banner {\n    width: 90%;\n  }\n}\n\n@media only screen and (max-width: 750px) {\n  .banner-right {\n    display: none;\n  }\n}\n\n\n\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 526 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ccf7919842ae007ba2feeb7e114e0b92.jpg";
+
+/***/ }),
+/* 527 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31747,11 +31782,11 @@ var _react = __webpack_require__(75);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Story = __webpack_require__(527);
+var _Story = __webpack_require__(528);
 
 var _Story2 = _interopRequireDefault(_Story);
 
-__webpack_require__(533);
+__webpack_require__(534);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31793,7 +31828,7 @@ var Stories = function Stories(props) {
 exports.default = Stories;
 
 /***/ }),
-/* 527 */
+/* 528 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31811,11 +31846,11 @@ var _Button = __webpack_require__(411);
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _Author = __webpack_require__(528);
+var _Author = __webpack_require__(529);
 
 var _Author2 = _interopRequireDefault(_Author);
 
-__webpack_require__(531);
+__webpack_require__(532);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31851,7 +31886,7 @@ var Story = function Story(props) {
 exports.default = Story;
 
 /***/ }),
-/* 528 */
+/* 529 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31865,7 +31900,7 @@ var _react = __webpack_require__(75);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(529);
+__webpack_require__(530);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31896,13 +31931,13 @@ var Author = function Author(props) {
 exports.default = Author;
 
 /***/ }),
-/* 529 */
+/* 530 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(530);
+var content = __webpack_require__(531);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(78)(content, {});
@@ -31922,7 +31957,7 @@ if(false) {
 }
 
 /***/ }),
-/* 530 */
+/* 531 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(77)();
@@ -31936,13 +31971,13 @@ exports.push([module.i, ".author-info-text {\n  display: flex;\n  flex-direction
 
 
 /***/ }),
-/* 531 */
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(532);
+var content = __webpack_require__(533);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(78)(content, {});
@@ -31962,7 +31997,7 @@ if(false) {
 }
 
 /***/ }),
-/* 532 */
+/* 533 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(77)();
@@ -31976,13 +32011,13 @@ exports.push([module.i, ".Story {\n  display: flex;\n  min-width: 49%;\n  max-wi
 
 
 /***/ }),
-/* 533 */
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(534);
+var content = __webpack_require__(535);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(78)(content, {});
@@ -32002,7 +32037,7 @@ if(false) {
 }
 
 /***/ }),
-/* 534 */
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(77)();
@@ -32016,7 +32051,7 @@ exports.push([module.i, ".Stories {\n  width: 70%;\n  margin: auto;\n  margin-bo
 
 
 /***/ }),
-/* 535 */
+/* 536 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32030,7 +32065,7 @@ var _react = __webpack_require__(75);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(536);
+__webpack_require__(537);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32044,8 +32079,7 @@ var Footer = function Footer(props) {
       _react2.default.createElement(
         'h3',
         null,
-        _react2.default.createElement('img', { src: '../public/copyright.svg' }),
-        ' 2017'
+        '2017'
       )
     )
   );
@@ -32054,13 +32088,13 @@ var Footer = function Footer(props) {
 exports.default = Footer;
 
 /***/ }),
-/* 536 */
+/* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(537);
+var content = __webpack_require__(538);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(78)(content, {});
@@ -32080,7 +32114,7 @@ if(false) {
 }
 
 /***/ }),
-/* 537 */
+/* 538 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(77)();
@@ -32088,19 +32122,19 @@ exports = module.exports = __webpack_require__(77)();
 
 
 // module
-exports.push([module.i, ".Footer {\n  border-top: 2px solid ghostwhite;\n  padding: 20px;\n  margin-top: 50px;\n  color: lightseagreen;\n}\n\nh3 {\n  font-size: .75em;\n}\n\nimg { \n  width: .75em; \n}\n", ""]);
+exports.push([module.i, ".Footer {\n  border-top: 2px solid ghostwhite;\n  padding: 20px;\n  margin-top: 50px;\n  color: lightseagreen;\n}\n\nh3 {\n  font-size: 1em;\n}\n\nimg { \n  width: .75em; \n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 538 */
+/* 539 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(539);
+var content = __webpack_require__(540);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(78)(content, {});
@@ -32120,7 +32154,7 @@ if(false) {
 }
 
 /***/ }),
-/* 539 */
+/* 540 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(77)();
@@ -32128,7 +32162,7 @@ exports = module.exports = __webpack_require__(77)();
 
 
 // module
-exports.push([module.i, ".App {\n  text-align: center;\n  margin: auto;\n  box-sizing: border-box;\n}\n\n/*screen break*/\n\n@media only screen and (max-width: 1100px) {\n  \n}\n", ""]);
+exports.push([module.i, ".App {\n  text-align: center;\n  margin: auto;\n  box-sizing: border-box;\n}\n\n", ""]);
 
 // exports
 

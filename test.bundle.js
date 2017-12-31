@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 540);
+/******/ 	return __webpack_require__(__webpack_require__.s = 541);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -9226,15 +9226,16 @@ module.exports = function (regExp, replace) {
 /* 537 */,
 /* 538 */,
 /* 539 */,
-/* 540 */
+/* 540 */,
+/* 541 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(160);
-module.exports = __webpack_require__(541);
+module.exports = __webpack_require__(542);
 
 
 /***/ }),
-/* 541 */
+/* 542 */
 /***/ (function(module, exports) {
 
 throw new Error("Module build failed: TypeError: this.ui is not a function\n    at Object.Mocha (/Users/nataliebarron/turing/fe_mod2/react-static-comp/node_modules/mocha/lib/mocha.js:86:8)");
